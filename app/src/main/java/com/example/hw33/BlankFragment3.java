@@ -36,7 +36,7 @@ public class BlankFragment3 extends Fragment {
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new BlankFragment2()).commit();
+                requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new BlankFragment3()).commit();
             }
         });
 }}
